@@ -59,5 +59,4 @@ Supports **User Authentication**, **Protected Routes**, and **CRUD Operations** 
 
 ---
 
-## 📁 Folder Structure
 
