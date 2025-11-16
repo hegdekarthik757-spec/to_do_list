@@ -31,9 +31,6 @@ Supports **User Authentication**, **Protected Routes**, and **CRUD Operations** 
 - Authentication middleware  
 - Clean folder structure  
 
-### 🖥️ DevOps / Deployment
-
----
 
 ## 🏗️ Tech Stack
 
@@ -49,14 +46,5 @@ Supports **User Authentication**, **Protected Routes**, and **CRUD Operations** 
 - Mongoose  
 - JSON Web Token (JWT)  
 - bcrypt  
-
-**DevOps:**  
-- AWS EC2  
-- Nginx  
-- PM2  
-- GitHub Actions  
-- Ubuntu Linux  
-
----
 
 
