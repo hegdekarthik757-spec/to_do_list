@@ -8,8 +8,6 @@ import { getErrorMessage } from "../../util/getError";
 import { getUserDetails } from "../../util/getUser";
 import todoServices from "../../services/todoServices";
 import { useNavigate } from "react-router-dom";
-import BinIcon from "../assets/images/bin.png";
-import EditIcon from "../assets/images/edit.png";
 
 const TodoEditor = () => {
   const [title, setTitle] = useState("");
@@ -207,13 +205,15 @@ async function completedTask(index, item) {
                   <div className="toDoEditButtons">
                 <button
                   onClick={() => handleDeleteTask(item)}
-                  className="deleteTaskDesc">
-                      <img src={BinIcon} alt="delete" />
+                  className="deleteTaskDesc"
+                >
+                  <img src="/assets/images/bin.png" alt="delete" />
                 </button>
                 <button
-                    onClick={() => handleEditTask(item)}
-                    className="editTaskDesc">
-                        <img src={EditIcon} alt="edit" />
+                  onClick={() => handleEditTask(item)}
+                  className="editTaskDesc"
+                >
+                  <img src="/assets/images/edit.png" alt="edit" />
                 </button>
               </div>
                 </div>

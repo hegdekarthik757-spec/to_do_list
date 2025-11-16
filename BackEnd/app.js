@@ -44,7 +44,9 @@ const toDoRoutes = require('./routes/toDoRoutes');
 app.use(cors());    
 app.use(express.json());
 
-
+app.get('/', (req, res) => {
+  res.send("404 Error Notfound");
+});
 
 app.use('/api', authRoutes);
 app.use('/api/todo', toDoRoutes);
