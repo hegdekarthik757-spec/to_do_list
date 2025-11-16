@@ -3,7 +3,7 @@ import '@ant-design/v5-patch-for-react-19';
 import {Routes,Route} from 'react-router-dom'
 import Pricing from './pages/Pricing'
 import ToDoListLanding from './pages/Home'
-import AboutUs from './pages/AboutUS'
+import AboutUs from './pages/AboutUs'
 import TodoEditor from './pages/TodoEditor'
 import NotFound from './components/NotFound'
 import Login from './pages/login'
@@ -14,6 +14,7 @@ const App = () => {
     <div> 
       <Routes>
         <Route path='/' element={<ToDoListLanding/>}/>
+        <Route path='/to_do_list' element={<ToDoListLanding/>}/>
         <Route path='/Pricing' element = {<Pricing/>}/>
         <Route path='/AboutUs' element = {<AboutUs/>}/>
         <Route path='/TodoEditor' element = {<TodoEditor/>}/>

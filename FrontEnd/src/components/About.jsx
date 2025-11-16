@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/About.css";
+import FounderImg from "../assets/images/IMG_0477.PNG";
 const About = () => {
   return (
     <div className="containerAboutUs">
@@ -26,13 +27,10 @@ const About = () => {
           <h2>Meet the Founder</h2>
           <div className="team-gridTodoList">
             <div className="memberTodoList">
-              <img
-                src="/assets/images/IMG_0477.PNG"
-                alt="Team Member"
-              />
-              <h3>Kartikeya Hegde</h3>
-              <p>Founder & Developer</p>
-            </div>
+                <img src={FounderImg} alt="Team Member" />
+                <h3>Kartikeya Hegde</h3>
+                <p>Founder & Developer</p>
+          </div>
           </div>
           <div className="contactTodoList">
           <a href="mailto:hegdekarthik757@gmail.com" className="btnEmail">
