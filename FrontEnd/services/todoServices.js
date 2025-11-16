@@ -19,7 +19,7 @@
 import axios from 'axios'
 import { getUserDetails } from '../util/getUser';
 
-const SERVER_URL = `${window.location.origin}/api/todo`
+const SERVER_URL = `http://localhost:3000/api/todo`
 ; //change to window...
 
 const authHeaders = ()=>{

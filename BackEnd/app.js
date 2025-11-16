@@ -30,14 +30,12 @@
     - Logs a startup message with the local server URL.
 
   This file acts as the central hub of the backend application.
-
-  
 */
 
 
+
 require('dotenv').config(); 
-require('./connections/connection'); 
-const path = require('path') 
+require('./connections/connection');  
 const cors = require('cors'); 
 const express = require('express');
 const app = express();
@@ -47,16 +45,9 @@ app.use(cors());
 app.use(express.json());
 
 
-app.get('/', (req, res) => {
-  res.send("404 Error Notfound");
-});
 
 app.use('/api', authRoutes);
 app.use('/api/todo', toDoRoutes);
-app.get('/', (req, res) =>{
-  app.use(express.static(path.resolve(__dirname, "FrontEnd","build")));
-  res.sendFile(path.resolve(__dirname, "FrontEnd", "build","index.html"));
-})
 
 const PORT = process.env.PORT || 3000; // ✅ now dotenv is loaded
 app.listen(PORT, () => {
