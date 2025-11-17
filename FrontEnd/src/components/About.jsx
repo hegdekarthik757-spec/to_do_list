@@ -7,10 +7,8 @@ const About = () => {
         <section className="about">
           <h2>Who We Are</h2>
           <p>
-            At <strong>ToDoList</strong>, we believe that productivity doesn’t have to
-            be complicated. Our mission is to help individuals and teams stay organized,
-            reduce stress, and get more done — all through a simple, elegant, and powerful
-            to-do platform.
+            At <strong>ToDoList</strong>, At ToDoList, we believe productivity shouldn’t require a PhD, a 3-hour tutorial, or selling your soul to the calendar gods. Our mission is simple: help you stay organized, reduce stress, and actually get things done — instead of just adding them to a list and never touching them again (we’ve all been there).
+            This entire masterpiece of a webpage is built by Cat, our developer, who bravely battles bugs, caffeine crashes, and the occasional “why isn’t this working” meltdown — all so you can enjoy a smooth, beautiful to-do experience.
           </p>
         </section>
 
