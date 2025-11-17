@@ -1,6 +1,6 @@
 import React from 'react'
 import "../css/About.css";
-import FounderImg from "../assets/images/IMG_0477.PNG";
+import FounderImg from "../assets/images/cat.JPG;
 const About = () => {
   return (
     <div className="containerAboutUs">
@@ -28,7 +28,7 @@ const About = () => {
           <div className="team-gridTodoList">
             <div className="memberTodoList">
                 <img src={FounderImg} alt="Team Member" />
-                <h3>Kartikeya Hegde</h3>
+                <h3>Mr. Miyagi Debugger of Bugs</h3>
                 <p>Founder & Developer</p>
           </div>
           </div>
