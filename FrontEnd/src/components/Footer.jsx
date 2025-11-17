@@ -4,7 +4,8 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <p>&copy; 2025 ToDoList. All rights reserved.</p>
+        <p>If something breaks, blame the code 🧨🐞. 
+          If something works, yes — Cat did it. Applaud accordingly 😼✨👏 .</p>
       </footer>  
     </div>
   )
