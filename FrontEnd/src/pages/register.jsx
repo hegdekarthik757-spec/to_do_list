@@ -47,7 +47,7 @@ const Register = () => {
             
         } catch (err) {
             console.log();
-            message.error(getErrorMessage(err));
+            message.error(please fill the details correctly);
             setLoading(false)
         }
     }
