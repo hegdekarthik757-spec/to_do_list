@@ -7,16 +7,15 @@ const About = () => {
         <section className="about">
           <h2>Who We Are</h2>
           <p>
-            At <strong>ToDoList</strong>, At ToDoList, we believe productivity shouldn’t require a PhD, a 3-hour tutorial, or giving up your free time to the paperwork pirates. Our mission is simple: help you stay organized, reduce stress, and actually get things done — instead of just adding them to a list and never touching them again (we’ve all been there).
-            This entire masterpiece of a webpage is built by Mr Miyagi (The Debugger of bugs), who bravely battles bugs, caffeine crashes, and the occasional “why isn’t this working” meltdown — all so you can enjoy a smooth, beautiful to-do experience.
+            At <strong>ToDoList</strong>, At ToDoList, we believe productivity shouldn’t need a PhD or a 3-hour tutorial. We’re here to help you stay organized, reduce stress, and actually get things done — not just stack up unfinished tasks (we’ve all been there).
+            This page was crafted by Mr. Miyagi, our fearless bug-slayer, who survives caffeine crashes and “why isn’t this working?” moments so you can enjoy a smooth, simple to-do experience. 
           </p>
         </section>
 
         <section className="missionTodoList">
           <h2>Our Mission</h2>
-          <p>
-            To empower people to manage their time effectively and actually achieve their goals — not just pretend to by writing them down and never looking at them again. Whether you’re planning your day, tracking long-term projects, or trying to manage a team that forgets everything unless it’s written in 10 different places, ToDoList adapts to your workflow.
-            Because if your tasks are going to stress you out anyway, they might as well be organized.
+          <p>We help people manage their time and actually reach their goals — not just write them down and forget they exist. Whether you're planning your day, tracking projects, or herding a team that remembers nothing unless it’s written everywhere, ToDoList fits your workflow.
+            And hey, if your tasks are going to stress you out anyway… they might as well be organized.
           </p>
         </section>
 
@@ -25,7 +24,7 @@ const About = () => {
           <div className="team-gridTodoList">
             <div className="memberTodoList">
                 <img src={FounderImg} alt="Team Member" />
-                <h3>Mr. Miyagi Debugger of Bugs</h3>
+                <h3>Mr. Miyagi (The Slayer of Bugs)</h3>
                 <p>Founder & Developer</p>
           </div>
           </div>
