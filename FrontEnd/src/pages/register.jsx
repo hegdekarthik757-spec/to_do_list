@@ -31,6 +31,7 @@ const Register = () => {
     /*On form submission, set loading to true. While waiting for the response from AuthServices, verify user credentials. If successful, registre user in database, show a success message, and navigate to the Login. */
     async function handleSubmit(){
         try {
+          setLoading(true);
             const data = {
                 firstname, 
                 lastname,
