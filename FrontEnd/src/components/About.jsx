@@ -1,6 +1,6 @@
 import React from 'react'
 import "../css/About.css";
-import FounderImg from "../assets/images/cat.JPG;
+import FounderImg from "../assets/images/cat.JPG";
 const About = () => {
   return (
     <div className="containerAboutUs">
