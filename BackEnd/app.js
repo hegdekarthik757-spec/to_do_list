@@ -41,9 +41,14 @@ const express = require('express');
 const app = express();
 const authRoutes = require('./routes/authRoutes');
 const toDoRoutes = require('./routes/toDoRoutes');
-app.use(cors());    
-app.use(express.json());
 
+app.use(cors({
+  origin: "https://todolist-frontend-9zz9.onrender.com",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
+}));   
+app.use(express.json());
+app.options('*', cors());
 
 
 app.use('/api', authRoutes);
