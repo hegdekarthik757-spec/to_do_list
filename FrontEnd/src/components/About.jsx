@@ -24,7 +24,7 @@ const About = () => {
           <div className="team-gridTodoList">
             <div className="memberTodoList">
                 <img src={FounderImg} alt="Team Member" />
-                <h3>Mr. Miyagi (The Slayer of Bugs)</h3>
+                <h3>Mr. Miyagi (Slayer of Bugs 🐞)</h3>
                 <p>Founder & Developer</p>
           </div>
           </div>
