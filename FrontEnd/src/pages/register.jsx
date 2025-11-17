@@ -38,11 +38,17 @@ const Register = () => {
                 username,
                 password
             }
-            const response = await authServices.registerUser(data)
-            console.log(response.data);
-            setLoading(false)
-            message.success("user registered")
-            navigate('/Login')
+            if(data.username&&data.firstname&&data.lastname&&data.password){
+                 const response = await authServices.registerUser(data)
+                 console.log(response.data);
+                 setLoading(false)
+                 message.success("user registered")
+                 navigate('/Login')
+            }else{
+              message.error(getErrorMessage("Please Fill Details"));
+              setLoading(false)
+            }
+           
 
             
         } catch (err) {
