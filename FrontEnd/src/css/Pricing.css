@@ -13,6 +13,7 @@
     margin: 3rem auto;    /* centers the whole section */
     max-width: 900px;     /* optional: keeps layout clean */
     padding: 2.5rem 1rem;
+    
 }
 
 
@@ -27,6 +28,10 @@
   .price-card {
     width: 100%;
   }
+  .popular ul li {
+  color: white !important;
+}
+  
 }
 .pricing h2 {
     color: #3f51b5;
