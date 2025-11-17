@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <footer>
         <p>If something breaks, blame the code 🧨🐞. 
-          If something works, yes — Cat did it. Applaud accordingly 😼✨👏 .</p>
+          If something works, yes — Mr Miyagi (The Slayer of Bugs) did it. Applaud accordingly 😼✨👏 .</p>
       </footer>  
     </div>
   )
