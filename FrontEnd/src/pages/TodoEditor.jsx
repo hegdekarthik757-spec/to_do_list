@@ -26,7 +26,7 @@ const TodoEditor = () => {
   const getAllTask = async () => {
     try {
       const response = await todoServices.getAllTask(user?.userId);
-      console.log("Fetched tasks:", response.data);
+      console.log("Fetched tasks..");
       setAllTask(response.data.tasks || []); 
     } catch (err) {
       console.error(err);
