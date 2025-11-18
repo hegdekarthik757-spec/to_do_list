@@ -18,12 +18,17 @@ const Login = () => {
   */
   async function handleSubmit() {
     try {
-      setLoading(true);
       const data = { username, password };
-      const response = await authServices.loginUser(data);
-      localStorage.setItem("todoAppUser", JSON.stringify(response.data));
-      message.success("Login successful!");
-      navigate("/TodoEditor");
+      if (data.username&&data.password) {
+        setLoading(true);
+        const response = await authServices.loginUser(data);
+        localStorage.setItem("todoAppUser", JSON.stringify(response.data));
+        message.success("Login successful!");
+        navigate("/TodoEditor");
+      }else{
+        message.error("Please Fill Details")
+      }
+      
     } catch (err) {
       console.error(err);
       message.error(getErrorMessage(err));
