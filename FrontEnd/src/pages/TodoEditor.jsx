@@ -41,7 +41,7 @@ const TodoEditor = () => {
     } else {
       navigate("/login");
     }
-  }, [user,navigate]);
+  }, [navigate]);
 
 /* handleSubmit() is triggered when the user submits the task form. 
   It checks if an existing task is being edited via editTaskId(handleEditTask()) or a new one is being added. 
