@@ -55,6 +55,7 @@ async function loginUser(req,res){
             userId:user?._id,
             firstname:user?.firstname,
             lastname:user?.lastname,
+            username:user?.username,
             token
         }
         res.send(finalData)
